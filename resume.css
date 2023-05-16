@@ -1,0 +1,317 @@
+*{
+  margin: 0px;
+}
+body {
+ background: radial-gradient(circle, rgba(255,195,222,1) 0%, rgba(255,249,200,1) 100%);
+}
+
+hr.line-3  {
+ border-top: 4px solid rgb(179, 4, 28);
+ margin-top: 20px;
+}
+.navbar{
+   list-style:none ;
+   text-align: center;
+   margin-right: 40px;
+   padding-bottom: 18px;
+  }
+#navbar-item{
+  display: inline;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#navbar-item a{
+text-decoration-line: none;
+color:black;
+letter-spacing: 2px;
+}
+.center {
+display: block;
+  margin:auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom:50px;
+  padding-top:25px;
+}
+.container{
+  margin-left:20%;
+}
+.fa {
+  padding: 30px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+ 
+}
+.fa a{
+  text-decoration-line: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+footer{
+  background-color: white;
+  text-align: center;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  color: #3B5998;
+}
+
+/* Twitter */
+.fa-twitter {
+  color: #55ACEE;
+}
+.fa-instagram{
+  color:rgb(240, 15, 128);
+}
+.fa-linkedin{
+  color:#3B5998;
+}
+.fa-spotify{
+  color:green;
+}
+.fa-github{
+  color:black;
+}
+.frame {
+  width: 90%;
+  margin: 40px auto;
+  text-align: center;
+}
+button {
+  margin: 20px;
+  outline: none;
+  }
+.custom-btn {
+  width: 200px;
+  height: 60px;
+  padding: 10px 25px;
+  border: 2px solid #000;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background:rgb(255, 255, 255);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+.btn-4 {
+  position: relative;
+  color: #000;
+  z-index: 2;
+  line-height: 40px;
+  padding: 0;
+}
+.btn-4:hover{
+  border: none;
+}
+.btn-4:before,
+.btn-4:after {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 0%;
+  border: 2px solid;
+  z-index: -1;
+  transition: all 0.3s ease;
+}
+.btn-4:before {
+  top: 0;
+   left: 0;
+   border-bottom-color: transparent;
+   border-right-color: transparent;
+   border-top-color: #000;
+   border-left-color: #000;
+}
+.btn-4:after{
+   bottom: 0;
+   right: 0;
+   border-top-color: transparent;
+   border-left-color: transparent;
+   border-bottom-color: #000;
+   border-right-color: #000;
+}
+.btn-4:hover:before,
+.btn-4:hover:after {
+  border-color: #000;
+  height: 100%;
+  width: 100%;
+}
+button a{
+  text-decoration-line: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  color: black;
+  font-size: 1.2em;
+}
+.band {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+  
+  display: grid;
+  
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+  
+  @media (min-width: 30em) {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  @media (min-width: 60em) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+
+.card {
+  background: white;
+  text-decoration: none;
+  color: #444;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;}
+
+  
+  
+  article{
+    padding: 20px;
+    flex: 1;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  h2{
+    font-size: 2em;
+    text-align: center;
+    padding:15px;
+    margin-bottom: 20px;
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 1.5px;
+  }
+  h4{
+    font-family: raleway;
+    text-align: center;
+    font-size: 1em;
+  }
+  #end{
+  font-size: 10px;
+  padding:15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  max-height: 40%;
+  position: relative;
+  margin: auto;
+}
+.slideshow-container img{
+  height: 350px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  padding: 8px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@media(max-width: 400px) {
+.slideshow-container img{
+  height: 200px;
+}
+}

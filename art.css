@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  }
+body {
+ background: radial-gradient(circle, rgba(255,195,222,1) 10%, rgb(255, 250, 208) 100%);
+}
+hr.line-3  {
+ border-top: 4px solid rgb(179, 4, 28);
+ margin-top: 20px;
+}
+.navbar{
+   list-style:none ;
+   text-align: center;
+   margin-right: 40px;
+   padding-bottom: 18px;
+  }
+#navbar-item{
+  display: inline;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#navbar-item a{
+text-decoration-line: none;
+color:black;
+letter-spacing: 2px;
+}
+#Heading2{
+  padding:10px;
+  width:15em;
+  margin:20px;
+}
+
+
+
+  #center{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1.2em;
+  text-align: center;
+}
+  
+  h1{
+    font-size: 1.4em;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+  } 
+h2{
+  font-size:1.2em;
+  font-family:'Raleway', sans-serif;
+  text-align: center;
+}
+.center {
+display: block;
+  margin:auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom:50px;
+  padding-top:25px;
+}
+.fa {
+  padding: 30px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa a{
+  text-decoration-line: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+footer{
+  background-color: white;
+  text-align: center;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  color: #3B5998;
+}
+
+/* Twitter */
+.fa-twitter {
+  color: #55ACEE;
+}
+.fa-instagram{
+  color:rgb(240, 15, 128);
+}
+.fa-linkedin{
+  color:#3B5998;
+}
+.fa-spotify{
+  color:green;
+}
+.fa-github{
+  color:black;
+}
+h6{
+  font-family: 'EB Garamond', serif;
+  font-size: 2.8em;
+  letter-spacing: 2px;
+  padding-top: 0;
+  text-align: center;
+  padding:5px;
+  margin-top: 30px;
+  text-decoration-line: underline;
+  text-decoration-color: blue;
+  text-decoration-style: wavy;
+}
+#gallery {
+   line-height:0;
+   -webkit-column-count:2; /* split it into 5 columns */
+   -webkit-column-gap:1px; /* give it a 5px gap between columns */
+   -moz-column-count:2;
+   -moz-column-gap:1px;
+   column-count:2;
+   column-gap:1px;
+   text-align: center;
+   
+}
+#gallery img {
+   width: 80% !important;
+   height: auto !important;
+   margin-bottom:50px; /* to match column gap */
+   text-align: center;
+  border: 5px solid #555;
+}
+@media (max-width: 1200px) {
+   #gallery {
+    -moz-column-count:    3;
+    -webkit-column-count: 3;
+    column-count:         3;
+   }
+}
+@media (max-width: 1000px) {
+   #gallery {
+    -moz-column-count:    3;
+    -webkit-column-count: 3;
+    column-count:         3;
+   }
+}
+@media (max-width: 800px) {
+   #gallery {
+    -moz-column-count:    2;
+    -webkit-column-count: 2;
+    column-count:         2;
+   }
+}
+@media (max-width: 400px) {
+   #gallery {
+    -moz-column-count:    1;
+    -webkit-column-count: 1;
+    column-count:         1;
+   }
+}
+#gallery img:hover {
+   filter:none;
+}
+#end{
+  font-size: 10px;
+  padding:15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}

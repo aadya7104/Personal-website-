@@ -1,0 +1,246 @@
+/* STYLE SECTIONING TAGS */
+*{
+  margin:0px;
+ 
+}
+body {
+/*background: rgb(255,185,205);
+background: radial-gradient(circle, rgba(255,185,205,1) 0%, rgba(255,245,196,1) 100%);
+  background-image: url('https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg?w=1060&t=st=1684233345~exp=1684233945~hmac=c600da7c82d636cbd4a07cbfb20636cdb91d3f4c054192278e3f573e8edbd806');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+/*background-color: #d9e4f5;
+background-image: linear-gradient(315deg, #bedcf9 0%, #f8ddeb 74%);*/
+  background-color: #f89b9e;
+background-image: linear-gradient(315deg, #fbc1c3 0%, #dde7fd 74%);
+  
+}
+.bg{
+  opacity: 0.5;
+}
+
+/* STYLE TEXT */
+
+
+hr.line-1  {
+ border-top: 4px solid rgb(179, 4, 28);
+}
+h1{
+  color:black;
+  font-family:'Garamond', serif;
+  text-align: center;
+  font-weight:28;
+  padding: 25px;
+}
+
+/* STYLE IMAGES */
+#introimg{
+  
+  border-radius: 7%;
+  /* padding:20px; */
+  }
+/* #heading{
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  width: 25em;
+  padding:20px;
+
+} */
+/* .introduction{
+  display: flex;
+  
+} */
+.para{
+  /* display: inline-block; */
+  text-align: center;
+  font-size:medium;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  letter-spacing:1px;
+  /* margin: 20px; */
+}
+
+/* STYLE NAV BAR */
+ul{
+   list-style:none ;
+   text-align: center;
+  }
+li{
+  display: inline;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-top: 10px;
+}
+li a{
+text-decoration-line: none;
+color:black;
+letter-spacing: 2px;
+}
+footer{
+  
+  padding-top:10px;
+  padding-bottom: 0px;
+  text-align: center;
+  background-color: rgb(211, 211, 211);
+  margin-bottom: 0px;
+}
+/* @media screen and(max-width: 450px){
+ul{
+   list-style:none ;
+   text-align: center;
+  }
+li{
+  display: inline;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li a{
+text-decoration-line: none;
+color:black;
+letter-spacing: 2px;
+}
+#heading{
+  align-content: center;
+  width: 15em;
+  padding-bottom:5px;
+  margin-left:20px;
+
+}
+.para{
+  display: block;
+  text-align: center;
+  font-size:small;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 15;
+  letter-spacing:1px;
+}
+intro img{
+display: none;
+}
+} */
+.p-5 para{
+  display: block;
+  text-align: center;
+  font-size:small;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 30px;
+  letter-spacing:1px;
+}
+@media screen and(max-width:450px){
+.p-5 para{
+  display: block;
+  text-align:left ;
+  font-size:small;
+  margin:50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 20;
+  letter-spacing:1px;
+} 
+#heading{
+  align-content: center;
+  width: 2em;
+  padding-bottom:5px;
+  margin-left:20px;
+}
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+
+.container p {
+  font-size: 1.5em;
+  font-family: monospace;
+  padding: 0px;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+.container p span.typed-text {
+  font-weight: bold;
+  color: #fe068a ;
+  font-style: italic ;
+  background: #ffffff;
+  padding: 4px;
+  border-radius: 28% 25% 20% 24%
+}
+.container p span.cursor {
+  display: inline-block;
+  background-color: #5e5e5e;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.container p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
+#intro{
+
+  text-align:left ;
+  font-size:medium;
+  margin:1%;
+  padding-top: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  font-weight: 10px;
+  letter-spacing:1px;
+}
+.fa {
+  padding: 30px;
+  font-size: 100px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+ 
+}
+.fa a{
+  text-decoration-line: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+footer{
+  background-color: white;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  color: #3B5998;
+}
+
+/* Twitter */
+.fa-twitter {
+  color: #55ACEE;
+}
+.fa-instagram{
+  color:rgb(240, 15, 128);
+}
+.fa-linkedin{
+  color:#3B5998;
+}
+.fa-spotify{
+  color:green;
+}
+.fa-github{
+  color:black;
+}
+#end{
+  font-size: 15px;
+  padding:15px;
+  font-family: monospace;
+  font-weight: normal;
+}
+button{
+  text-align: center;
+}
